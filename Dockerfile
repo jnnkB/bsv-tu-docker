@@ -3,7 +3,10 @@ FROM ubuntu:18.04
 
 # Install apt dependencies
 RUN apt-get update && \
-    apt-get install python3 -y && \
+    apt-get install -y \
+                       make \
+                       python3 \
+                       && \
     rm -rf /var/lib/apt/lists/*
 
 # Install bsc
