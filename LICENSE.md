@@ -1,4 +1,4 @@
-Copyright of the original parts of the Dockerfile (c) 2020 Bluespec, Inc. All rights reserved.
+Copyright of the original parts of the Dockerfile (c) 2020 Bluespec, Inc. All rights reserved.<br>
 Copyright of the rest (c) 2022 jnnkb
 
 Redistribution and use in source and binary forms, with or without
