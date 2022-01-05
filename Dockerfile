@@ -25,4 +25,5 @@ ENV PATH /opt/bluespec/bin:$PATH
 COPY BSVTools /root/.local
 RUN echo 'export PATH=/root/.local/:$PATH' >> /root/.bashrc
 
+WORKDIR /root/share
 CMD /bin/bash
